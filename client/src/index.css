@@ -1,10 +1,10 @@
 :root {
-  --primary: #020e27;
-  --secondary: #011f60;
+  --primary: #2fe900;
+  --secondary: #0a2b80;
   --tertiary: #b2c2c1;
   --quatrinary: #cadbda;
-  --light: #010694;
-  --dark: #a9acff;
+  --light: #ffffff;
+  --dark: #71c4ed;
   --error: rgb(228, 46, 1);
   --border-radius: 0.3rem;
   --spacing-one: calc(1rem * 0.25);
@@ -125,6 +125,11 @@ nav a:hover {
 .pill:hover {
   color: var(--secondary);
   background-color: var(--dark);
+}
+
+.btn:hover a,
+.pill:hover a {
+  color: var(--secondary);
 }
 
 .btn-inline {
